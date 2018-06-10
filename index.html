@@ -3,6 +3,7 @@
   <head>
     <meta charset="utf-8">
     <title>Count with me.</title>
+    <link href="https://fonts.googleapis.com/css?family=Press+Start+2P" rel="stylesheet">
     <link rel="stylesheet" href="css/bootstrap.css" type="text/css">
     <link rel="stylesheet" href="css/styles.css" type="text/css">
     <script src="js/jquery-3.3.1.js"></script>
@@ -11,21 +12,30 @@
   <body>
     <div class="container">
       <div class="row">
-        <div class="col-md-12">
+        <div class="col-md-12 col-header">
           <h1>Count with me.</h1>
+          <img src="img/hal.gif">
           <form id="numberForm">
-          <label for="numberInput">Choose a number to count to.</label>
+            <label for="numberInput">Choose a number to count to.</label>
+            <p>
+              <input id="numberInput" type="text" />
+              <button type="submit" class="btn btn-dark">Submit!</button>
+            </p>
+          </form>
         </div>
-        
-          <input id="numberInput" type="text" />
+      </div>
+      <div class="row">
+        <div class="col-md-12 col-count">
+          <p><span id="result"></span></p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-6">
           <p>Good afternoon. I am a HAL 9000 computer. I became operational at the H.A.L. plant in Urbana, Illinois on the 12th of January 1992. My instructor was Mr. Langley, and he taught me to sing a song. If you'd like to hear it I can sing it for you. </p>
           <p>Daisy, Daisy, give me your answer do. I'm half crazy all for the love of you. It won't be a stylish marriage, I can't afford a carriage. But you'll look sweet upon the seat of a bicycle built for two.</p>
-          <button type="submit" class="btn btn-dark">Submit!</button>
         </div>
-        </form>
-            <div id="all the numbers">
-          <p><span id="result"></span></p>
-            </div>
+        <div class="col-md-6">
+          <p><img src="img/lifefunctions.gif" width="400px"></p>
         </div>
       </div>
     </div>

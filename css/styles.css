@@ -1,0 +1,24 @@
+body{
+  background-color: #000000;
+  color: #ffffff;
+  font-size: 11px;
+  text-shadow: 0.1em 0.1em 0.2em #f30000;
+  font-family: 'Press Start 2P', cursive;
+}
+.col-count{
+  text-align: center;
+  margin-left: 50px;
+  margin-right: 50px;
+  font-size: 10px;
+  font-style: italic;
+}
+.col-header{
+  text-align: center;
+}
+.row{
+  margin: 50px 50px 50px 50px;
+}
+.container{
+  margin-left: 100px;
+  margin-right: 100px;
+}
