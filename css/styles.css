@@ -5,6 +5,34 @@ body{
   text-shadow: 0.1em 0.1em 0.2em #f30000;
   font-family: 'Press Start 2P', cursive;
 }
+first-background{
+  background-image: url("img/first.gif");
+  color: #ffffff;
+  font-size: 11px;
+  text-shadow: 0.1em 0.1em 0.2em #f30000;
+  font-family: 'Press Start 2P', cursive;
+}
+second-background{
+  background-image: url("img/second.gif");
+  color: #ffffff;
+  font-size: 11px;
+  text-shadow: 0.1em 0.1em 0.2em #f30000;
+  font-family: 'Press Start 2P', cursive;
+}
+third-background{
+  background-image: url("img/third.gif");
+  color: #ffffff;
+  font-size: 11px;
+  text-shadow: 0.1em 0.1em 0.2em #f30000;
+  font-family: 'Press Start 2P', cursive;
+}
+last-background{
+  background-image: url("pretty.gif");
+  color: #ffffff;
+  font-size: 11px;
+  text-shadow: 0.1em 0.1em 0.2em #f30000;
+  font-family: 'Press Start 2P', cursive;
+}
 .col-count{
   text-align: center;
   margin-left: 50px;
